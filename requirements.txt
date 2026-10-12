@@ -1,0 +1,12 @@
+# CPU environment (Python 3.11): data pipeline, scoring, baselines, prompted models through an OpenAI-compatible API.
+diplomacy==1.1.2        # game engine; 1.1.2 reproduces the recorded games exactly
+numpy==2.4.6
+pandas==3.0.5
+polars==1.44.2
+pyarrow==25.0.1
+scipy==1.17.1
+scikit-learn==1.9.1
+lightgbm==4.7.0
+requests==2.34.2
+tabulate==0.10.0        # pandas to_markdown in the build and scoring reports
+huggingface_hub==1.31.0 # hf download (released data)

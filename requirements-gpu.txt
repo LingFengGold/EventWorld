@@ -1,0 +1,12 @@
+# GPU environment (Python 3.11): local inference with vLLM and full fine-tuning with LLaMA-Factory.
+vllm==0.29.0
+llamafactory==0.9.5
+transformers==5.6.0
+torch==2.13.0
+datasets==4.0.0
+accelerate==1.11.0
+deepspeed               # Qwen3-8B fine-tuning (ZeRO-3, configs/ds_z3.json)
+diplomacy==1.1.2
+polars==1.44.2
+pandas==2.3.3
+numpy==2.3.5

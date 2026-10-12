@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.egg-info/
+data/
+out/
+third_party/dipnet/*
+!third_party/dipnet/README.md
